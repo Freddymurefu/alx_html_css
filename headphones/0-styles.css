@@ -1,3 +1,7 @@
+*{
+    box-sizing:border-box;
+  }
+
 html, body {
   width: 100%;
   margin: 0;
@@ -39,12 +43,13 @@ z-index: 10;
   gap: 20px;
   padding: 0;
   margin: 0;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', 'spin cycle ot';
   background: transparent;
   color: white;
   font-size: 12;
   font-weight: bold;
-  margin-left: 850px;
+  margin-left: auto;
+  align-items: center;
 }
 .nav-bar a {
   text-decoration: none;
@@ -84,7 +89,7 @@ z-index: 10;
 .cta-btn {
   background-color: #FF6565;
   color: white;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', 'spin cycle ot';
   font-weight: 600;
   font-size: 14px;
   border: none;
@@ -99,24 +104,22 @@ z-index: 10;
 }
 
   .hero-content h1 {
-  font-family: 'Source Sans Pro';
+  font-family: 'Source Sans Pro', 'spin cycle ot';
   font-size: 32;
   font-weight:bold;
   margin: 0;
   }
 
   .subheading {
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro', 'spin cycle ot';
     font-weight: bold;
     font-size: 16;
   }
 
   .description {
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro', 'spin cycle ot';
     font-weight: 400;
     font-size: 16;
   }
 
-  *{
-    box-sizing:border-box;
-  }
+  
